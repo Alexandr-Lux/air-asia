@@ -1,0 +1,28 @@
+.btn {
+	display: inline-block;
+	background: #f5170e;
+	border-radius: 35px;
+	padding: 18px 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.btn:hover {
+	background: #da0100;
+	box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
+}
+
+.btn_color_w {
+	background: #fff;
+	border: 1px solid #F5170E;
+	color: #F5170E;
+}
+
+.btn_color_w:visited {
+	color: #F5170E;
+}
+
+.btn_color_w:hover {
+	color: #fff;
+	background: #F5170E;
+}

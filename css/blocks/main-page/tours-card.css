@@ -1,0 +1,67 @@
+.tours-card {
+	min-height: 450px;
+	border-radius: 5px;
+	overflow: hidden;
+	color: #303030;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 26px;
+	height: 100%;
+}
+
+.tours-card__header {
+	height: 144px;
+	margin-bottom: 33px;
+}
+
+.tours-card__img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.tours-card__body {
+	padding: 0 22px;
+	flex: 1;
+}
+
+.tours-card__title {
+	color: #000;
+	margin-bottom: 21px;
+}
+
+.tours-card__conditions {
+	margin-bottom: 23px;
+}
+
+.tours-card__icon {
+	display: inline-block;
+	margin: 0 6px 0 5px;
+	vertical-align: middle;
+}
+
+.tours-card__description {
+	display: inline-block;
+	margin-right: 21px;
+	vertical-align: middle;
+	font-size: 16px;
+}
+
+.tours-card__description:last-child {
+	margin-right: 0;
+}
+
+.tours-card__text {
+	line-height: 1.5;
+	margin-bottom: 24px;
+}
+
+.tours-card__btn{
+	align-self: flex-start;
+	padding-left: 22px;
+}
+
+.tours-card__btn .btn{
+	padding: 18px 30px;
+}

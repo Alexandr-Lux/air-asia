@@ -1,0 +1,23 @@
+.menu {
+	padding-top: 13px;
+}
+
+.menu__list {
+	display: flex;
+}
+
+.menu__item {
+	margin-right: 55px;
+}
+
+.menu__item:last-child {
+	margin-right: 0;
+}
+
+.menu__item_active .menu__link {
+	color: #DA0100;
+}
+
+.menu__link:hover {
+	color: #DA0100;
+}

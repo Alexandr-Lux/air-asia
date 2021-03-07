@@ -1,0 +1,34 @@
+.partners{
+	background-color: #F4F5F5;
+	padding: 85px 0 50px;
+}
+
+.partners__title{
+	color: #1A1B1E;
+	font-size: 48px;
+	font-weight: 700;
+	margin-bottom: 85px;
+}
+
+.partners__list{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: 0 -45px;
+}
+
+.partners__item{
+	flex: 0 0 25%;
+	padding: 0 45px 72px;
+}
+
+.partners__link{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	filter: grayscale(1);
+}
+
+.partners__link:hover{
+	filter: grayscale(0);
+}

@@ -1,0 +1,12 @@
+.main-page-wrapper {
+	background: url('./../../../images/top_bg.jpg') center top no-repeat, url('./../../../images/bottom_bg.png') center bottom 155px no-repeat;
+}
+
+.main__header{
+	margin-bottom: 124px;
+}
+
+.main__footer{
+	height: 146px;
+	padding-top: 46px;
+}

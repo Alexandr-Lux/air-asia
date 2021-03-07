@@ -1,0 +1,33 @@
+@import url('./layout/fonts.css');
+@import url('./layout/normalize.css');
+@import url('./layout/reset.css');
+@import url('./layout/base.css');
+
+@import url('./blocks/header.css');
+@import url('./blocks/logo.css');
+@import url('./blocks/menu.css');
+@import url('./blocks/contacts.css');
+@import url('./blocks/title.css');
+@import url('./blocks/btn.css');
+@import url('./blocks/pagination.css');
+@import url('./blocks/footer.css');
+@import url('./blocks/socials.css');
+
+@import url('./blocks/main-page/main-page.css');
+@import url('./blocks/main-page/hero.css');
+@import url('./blocks/main-page/tours.css');
+@import url('./blocks/main-page/tours-card.css');
+@import url('./blocks/main-page/news.css');
+@import url('./blocks/main-page/news-card.css');
+@import url('./blocks/main-page/about.css');
+
+@import url('./blocks/service-page/service-page.css');
+@import url('./blocks/service-page/top-line.css');
+@import url('./blocks/service-page/breadcrumbs.css');
+@import url('./blocks/service-page/services.css');
+@import url('./blocks/service-page/service-card.css');
+@import url('./blocks/service-page/partners.css');
+
+
+
+

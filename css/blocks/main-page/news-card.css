@@ -1,0 +1,33 @@
+.news-card{
+	border-radius: 5px;
+	overflow: hidden;
+	position: relative;
+}
+
+.news-card__img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.news-card__body {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	margin: 0 30px 20px;
+	min-height: 125px;
+}
+
+.news-card__date {
+	display: block;
+	margin-bottom: 14px;
+}
+
+.news-card__title {
+	margin-bottom: 5px;
+}
+
+.news-card__text {
+	font-size: 16px;
+	line-height: 1.5;
+}

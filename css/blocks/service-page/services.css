@@ -1,0 +1,12 @@
+.services-content{
+	padding: 88px 0 90px;
+	background:#f2f2f2;
+}
+
+.services-list__item{
+	margin-bottom: 29px;
+}
+
+.services-list__item:last-child{
+	margin-bottom: 50px;
+}

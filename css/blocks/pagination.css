@@ -1,0 +1,44 @@
+.paginator {
+	font-size: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.paginator__pages {
+	margin-right: 25px;
+}
+
+.paginator__list{
+	display: flex;
+	text-align: center;
+}
+
+.paginator__item{
+	margin-right: 5px;
+}
+
+.paginator__item_active .paginator__link,
+.paginator__link:hover {
+	color: #F5170E;
+	background: #fff;
+}
+
+.paginator__link {
+	display: block;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	font-weight: 700;
+	line-height: 32px;
+}
+
+.paginator_color_b{
+	color: #000;
+}
+
+.paginator_color_b .paginator__item_active .paginator__link,
+.paginator_color_b .paginator__link:hover {
+	color: #fff;
+	background: #F5170E;
+}

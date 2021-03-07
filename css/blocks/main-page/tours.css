@@ -1,0 +1,22 @@
+.tours {
+	margin-bottom: 124px;
+}
+
+.tours__title:after {
+	margin-left: 12px;
+	content: "";
+	display: inline-block;
+	width: 21px;
+	height: 28px;
+	background: url('../images/icons/flame.svg') center center no-repeat;
+}
+
+.tours__row {
+	display: flex;
+	margin: 0 -13px;
+}
+
+.tours__column {
+	flex: 1 1 33.333%;
+	padding: 0 13px;
+}
