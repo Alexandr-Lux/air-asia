@@ -11,14 +11,75 @@
 }
 
 .contacts__phone {
-	display: inline-block;
+	display: block;
 	font-size: 26px;
 	margin-bottom: -4px;
 }
 
-.contacts__dropdown-title {
+.contacts__dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.contacts__dropdown:hover .contacts__dropdown-link{
+	color: #fff;
+	text-decoration: underline;
+	transition: .5s;
+}
+
+.contacts__dropdown:hover .contacts__dropdown-body{
+	right: 0;
+	opacity: 0.8;
+}
+
+.contacts__dropdown-link {
 	display: block;
 	text-decoration: underline;
 	font-size: 13px;
 	margin: -3px 1px 0 0;
+	color: #98A4A8;
+}
+
+.contacts__dropdown-body{
+	position: absolute;
+	right: 0;
+	background-color: #ededed;
+	padding: 11px 19px 15px;
+	color: #1E1F20;
+	font-size: 13px;
+	line-height: 1.8;
+	font-weight: 600;
+	border-radius: 7px;
+	top: 100%;
+	width: 160px;
+	opacity: 0;
+	transition: opacity .5s;
+	right: -300px;
+	margin-top: 9px;
+}
+
+.contacts__dropdown-body:before{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: -9px;
+	right: 43px;
+	border: 9px solid transparent;
+	border-top-width: 0;
+	border-bottom-color: #ededed;
+}
+
+.contacts__dropdown-body:after{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 30px;
+	top: -28px;
+	position: absolute;
+}
+
+.contacts__dropdown-row:first-child{
+	font-weight: 700;
 }

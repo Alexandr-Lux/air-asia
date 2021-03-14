@@ -1,0 +1,12 @@
+.tag{
+	padding: 10px 15px;
+	border-radius: 35px;
+	background-color: #E7E7E7;
+	display: inline-block;
+	color: #303030;
+	font-size: 13px;
+}
+
+.tag_checked{
+	background-color: #b9eae4;
+}

@@ -1,0 +1,10 @@
+.feedback{
+	background-color: #F4F5F5;
+	padding: 60px 0 96px;
+}
+
+.feedback__title{
+	color: #1A1B1E;
+	font-size: 48px;
+	margin-bottom: 55px;
+}

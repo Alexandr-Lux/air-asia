@@ -5,6 +5,7 @@
 	padding: 18px 40px;
 	font-weight: 700;
 	text-transform: uppercase;
+	transition: .5s;
 }
 
 .btn:hover {
@@ -25,4 +26,18 @@
 .btn_color_w:hover {
 	color: #fff;
 	background: #F5170E;
+}
+
+.btn_color_grey{
+	background: #8E8E8E;
+}
+
+.btn_color_grey:hover{
+	background: #2B2B2B;
+	box-shadow: none;
+}
+
+.btn_no-hover:hover{
+	background: #f5170e;
+	box-shadow: none;
 }

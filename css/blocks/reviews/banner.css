@@ -1,0 +1,15 @@
+.banner{
+	background: url('../../../images/reviews/couple.png') right 19% bottom no-repeat, url('../../../images/reviews/banner.jpg') center center / cover no-repeat;
+}
+
+.banner__content{
+	display: flex;
+	align-items: center;
+	min-height: 363px;
+}
+
+.banner__title{
+	margin-bottom: 0;
+	font-size: 48px;
+	max-width: 50%;
+}

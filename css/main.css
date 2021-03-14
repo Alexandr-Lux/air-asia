@@ -3,6 +3,7 @@
 @import url('./layout/reset.css');
 @import url('./layout/base.css');
 
+@import url('./blocks/welcome.css');
 @import url('./blocks/header.css');
 @import url('./blocks/logo.css');
 @import url('./blocks/menu.css');
@@ -12,6 +13,9 @@
 @import url('./blocks/pagination.css');
 @import url('./blocks/footer.css');
 @import url('./blocks/socials.css');
+@import url('./blocks/top-line.css');
+@import url('./blocks/breadcrumbs.css');
+@import url('./blocks/tag.css');
 
 @import url('./blocks/main-page/main-page.css');
 @import url('./blocks/main-page/hero.css');
@@ -22,12 +26,16 @@
 @import url('./blocks/main-page/about.css');
 
 @import url('./blocks/service-page/service-page.css');
-@import url('./blocks/service-page/top-line.css');
-@import url('./blocks/service-page/breadcrumbs.css');
 @import url('./blocks/service-page/services.css');
 @import url('./blocks/service-page/service-card.css');
 @import url('./blocks/service-page/partners.css');
 
+@import url('./blocks/reviews/reviews.css');
+@import url('./blocks/reviews/review-card.css');
+@import url('./blocks/reviews/avatar.css');
+@import url('./blocks/reviews/banner.css');
+@import url('./blocks/reviews/feedback.css');
+@import url('./blocks/reviews/feedback-form.css');
 
 
 

@@ -1,6 +1,7 @@
 .service-card{
 	display: flex;
 	padding: 10px 10px 10px 0;
+	align-items: flex-start;
 }
 
 .service-card:hover{
@@ -25,7 +26,7 @@
 }
 
 .service-card__text{
-	margin-bottom: 34px;
+	margin-bottom: 33px;
 	font-size: 16px;
 	line-height: 1.69;
 	color: #303030;

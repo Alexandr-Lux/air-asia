@@ -1,0 +1,21 @@
+.reviews-content{
+	background-color: #F2F2F2;
+	padding: 98px 0 87px;
+}
+
+.reviews{
+	margin-bottom: 54px;
+}
+
+.reviews__list{
+	column-count: 2;
+	column-gap: 27px;
+	flex-wrap: wrap;
+}
+
+.reviews__item{
+	flex: 0 1 50%;
+	margin-bottom: 17px;
+	display: inline-block;
+}
+

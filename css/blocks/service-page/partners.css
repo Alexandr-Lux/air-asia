@@ -1,6 +1,6 @@
 .partners{
 	background-color: #F4F5F5;
-	padding: 85px 0 50px;
+	padding: 85px 0 42px;
 }
 
 .partners__title{
@@ -27,6 +27,7 @@
 	justify-content: center;
 	align-items: center;
 	filter: grayscale(1);
+	transition: .5s;
 }
 
 .partners__link:hover{
