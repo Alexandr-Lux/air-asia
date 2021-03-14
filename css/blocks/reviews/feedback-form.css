@@ -31,6 +31,7 @@
 
 .feedback-form__input_textarea{
 	height: 235px;
+	resize: none;
 }
 
 .feedback-form__services{
