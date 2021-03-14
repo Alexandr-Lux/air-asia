@@ -1,5 +1,5 @@
 .welcome-wrapper{
-	background: url('../../../images/welcome-bg.png') center top 77% / cover no-repeat;
+	background: url('../../images/welcome-bg.png') center top 77% / cover no-repeat;
 	background-size: 136%;
 	display: flex;
 	position: absolute;
@@ -14,7 +14,7 @@
 .welcome__container{
 	width: 591px;
 	padding: 65px 0;
-	background: url('../../../images/shades.png') center top no-repeat;
+	background: url('../../images/shades.png') center top no-repeat;
 }
 
 .welcome{
