@@ -15,6 +15,7 @@
 	margin-right: 28px;
 	background: #fff;
 	padding: 22px 30px;
+	border: 1px solid #fff;
 }
 
 .feedback-form__input::placeholder{
@@ -26,7 +27,7 @@
 }
 
 .feedback-form__input:focus {
-	border: 1px solid #F5170E;
+	border-color: #F5170E;
 }
 
 .feedback-form__input_textarea{
