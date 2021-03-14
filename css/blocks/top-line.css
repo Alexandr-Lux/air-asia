@@ -1,0 +1,18 @@
+.top-line{
+	min-height: 412px;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 23px;
+	background: url('../../images/elephant.jpg') center center / cover no-repeat;
+}
+
+.top-line__container{
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.top-line__container .page-title{
+	margin-bottom: 83px;
+}
