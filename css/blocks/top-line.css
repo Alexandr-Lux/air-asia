@@ -3,7 +3,7 @@
 	display: flex;
 	flex-direction: column;
 	padding-bottom: 23px;
-	background: url('./../../../images/elephant.jpg') center center / cover no-repeat;
+	background: url('../../images/elephant.jpg') center center / cover no-repeat;
 }
 
 .top-line__container{
